@@ -1,0 +1,16 @@
+[
+  {
+    "examples": 96,
+    "exact_tool_set_accuracy": 0.71875,
+    "micro_precision": 0.775,
+    "micro_recall": 0.775,
+    "micro_f1": 0.775,
+    "macro_f1": 0.7795734855656365,
+    "recall_at_1": 0.734375,
+    "recall_at_3": 0.9010416666666666,
+    "mean_latency_ms": 0.09895729211469491,
+    "p95_latency_ms": 0.12420001439750195,
+    "exact_match_cardinality": "top-ranked count equals number of labelled tools",
+    "method": "bm25"
+  }
+]

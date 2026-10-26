@@ -1,0 +1,554 @@
+[
+  {
+    "id": "single-01093",
+    "query": "Show active sales and their conditions. (request 1093)?",
+    "expected_tools": [
+      "get_current_promotions"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-01277",
+    "query": "Show my available coupons and their minimum spend. (request 1277)?",
+    "expected_tools": [
+      "get_available_coupons"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00037",
+    "query": "What orders have I placed recently? (request 0037)?",
+    "expected_tools": [
+      "get_order_list"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00051",
+    "query": "What orders have I placed recently? (request 0051)?",
+    "expected_tools": [
+      "get_order_list"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00415",
+    "query": "I want to return the water purifier from order ORD-1016. (request 0415)?",
+    "expected_tools": [
+      "create_refund_request"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-01403",
+    "query": "How long do I have to return SKU-0034? (request 1403)?",
+    "expected_tools": [
+      "get_return_policy"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-01075",
+    "query": "Show active sales and their conditions. (request 1075)?",
+    "expected_tools": [
+      "get_current_promotions"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00015",
+    "query": "What orders have I placed recently? (request 0015)?",
+    "expected_tools": [
+      "get_order_list"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00569",
+    "query": "Show the details and price for wireless mouse blue. (request 0569)?",
+    "expected_tools": [
+      "get_item_info"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-01297",
+    "query": "Show my available coupons and their minimum spend. (request 1297)?",
+    "expected_tools": [
+      "get_available_coupons"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00443",
+    "query": "I want to return the insulated bottle from order ORD-1044. (request 0443)?",
+    "expected_tools": [
+      "create_refund_request"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00011",
+    "query": "What orders have I placed recently? (request 0011)?",
+    "expected_tools": [
+      "get_order_list"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-01475",
+    "query": "How long do I have to return SKU-0026? (request 1475)?",
+    "expected_tools": [
+      "get_return_policy"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00469",
+    "query": "I want to return the wireless mouse from order ORD-1070. (request 0469)?",
+    "expected_tools": [
+      "create_refund_request"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00465",
+    "query": "I want to return the robot vacuum from order ORD-1066. (request 0465)?",
+    "expected_tools": [
+      "create_refund_request"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00421",
+    "query": "I want to return the lightweight laptop from order ORD-1022. (request 0421)?",
+    "expected_tools": [
+      "create_refund_request"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00097",
+    "query": "What orders have I placed recently? (request 0097)?",
+    "expected_tools": [
+      "get_order_list"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00925",
+    "query": "What is my cart subtotal? (request 0925)?",
+    "expected_tools": [
+      "get_cart_summary"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00575",
+    "query": "Show the details and price for water purifier limited edition. (request 0575)?",
+    "expected_tools": [
+      "get_item_info"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00689",
+    "query": "Can I buy wireless mouse right now? (request 0689)?",
+    "expected_tools": [
+      "get_stock"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00625",
+    "query": "Check the available stock for SKU-0076. (request 0625)?",
+    "expected_tools": [
+      "get_stock"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00409",
+    "query": "I want to return the wireless mouse from order ORD-1010. (request 0409)?",
+    "expected_tools": [
+      "create_refund_request"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-01449",
+    "query": "How long do I have to return SKU-0040? (request 1449)?",
+    "expected_tools": [
+      "get_return_policy"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00411",
+    "query": "I want to return the Bluetooth speaker from order ORD-1012. (request 0411)?",
+    "expected_tools": [
+      "create_refund_request"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00685",
+    "query": "Check the available stock for SKU-0036. (request 0685)?",
+    "expected_tools": [
+      "get_stock"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00505",
+    "query": "What are the features of robot vacuum? (request 0505)?",
+    "expected_tools": [
+      "get_item_info"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00053",
+    "query": "What orders have I placed recently? (request 0053)?",
+    "expected_tools": [
+      "get_order_list"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-01221",
+    "query": "Show my available coupons and their minimum spend. (request 1221)?",
+    "expected_tools": [
+      "get_available_coupons"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00067",
+    "query": "What orders have I placed recently? (request 0067)?",
+    "expected_tools": [
+      "get_order_list"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00989",
+    "query": "Summarize my shopping cart. (request 0989)?",
+    "expected_tools": [
+      "get_cart_summary"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-01265",
+    "query": "Show my available coupons and their minimum spend. (request 1265)?",
+    "expected_tools": [
+      "get_available_coupons"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-01463",
+    "query": "How long do I have to return SKU-0094? (request 1463)?",
+    "expected_tools": [
+      "get_return_policy"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00401",
+    "query": "I want to return the lightweight laptop from order ORD-1002.",
+    "expected_tools": [
+      "create_refund_request"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00681",
+    "query": "Is lightweight laptop lightweight in stock? (request 0681)?",
+    "expected_tools": [
+      "get_stock"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00563",
+    "query": "Show the details and price for insulated bottle white. (request 0563)?",
+    "expected_tools": [
+      "get_item_info"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00615",
+    "query": "Is water purifier limited edition in stock? (request 0615)?",
+    "expected_tools": [
+      "get_stock"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-01035",
+    "query": "Show active sales and their conditions. (request 1035)?",
+    "expected_tools": [
+      "get_current_promotions"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-01011",
+    "query": "Show active sales and their conditions. (request 1011)?",
+    "expected_tools": [
+      "get_current_promotions"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-01469",
+    "query": "How long do I have to return SKU-0060? (request 1469)?",
+    "expected_tools": [
+      "get_return_policy"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00525",
+    "query": "Tell me about product SKU-0076. (request 0525)?",
+    "expected_tools": [
+      "get_item_info"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00979",
+    "query": "What is my cart subtotal? (request 0979)?",
+    "expected_tools": [
+      "get_cart_summary"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00665",
+    "query": "Can I buy robot vacuum right now? (request 0665)?",
+    "expected_tools": [
+      "get_stock"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00965",
+    "query": "Summarize my shopping cart. (request 0965)?",
+    "expected_tools": [
+      "get_cart_summary"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00613",
+    "query": "Check the available stock for SKU-0044. (request 0613)?",
+    "expected_tools": [
+      "get_stock"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-01489",
+    "query": "How long do I have to return SKU-0080? (request 1489)?",
+    "expected_tools": [
+      "get_return_policy"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-01099",
+    "query": "Show active sales and their conditions. (request 1099)?",
+    "expected_tools": [
+      "get_current_promotions"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-00585",
+    "query": "Tell me about product SKU-0036. (request 0585)?",
+    "expected_tools": [
+      "get_item_info"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "single-01013",
+    "query": "Show active sales and their conditions. (request 1013)?",
+    "expected_tools": [
+      "get_current_promotions"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "multi-01465",
+    "query": "Show the details and stock for robot vacuum limited edition. (request 1465)?",
+    "expected_tools": [
+      "get_item_info",
+      "get_stock"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "multi-00425",
+    "query": "Show the details and stock for robot vacuum limited edition. (request 0425)?",
+    "expected_tools": [
+      "get_item_info",
+      "get_stock"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "multi-01325",
+    "query": "Show the details and stock for robot vacuum limited edition. (request 1325)?",
+    "expected_tools": [
+      "get_item_info",
+      "get_stock"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "multi-02945",
+    "query": "Show the details and stock for robot vacuum limited edition. (request 2945)?",
+    "expected_tools": [
+      "get_item_info",
+      "get_stock"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "multi-00005",
+    "query": "Show the details and stock for robot vacuum limited edition.",
+    "expected_tools": [
+      "get_item_info",
+      "get_stock"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "multi-01505",
+    "query": "Show the details and stock for robot vacuum limited edition. (request 1505)?",
+    "expected_tools": [
+      "get_item_info",
+      "get_stock"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "multi-00485",
+    "query": "Show the details and stock for robot vacuum limited edition. (request 0485)?",
+    "expected_tools": [
+      "get_item_info",
+      "get_stock"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "multi-00505",
+    "query": "Show the details and stock for robot vacuum limited edition. (request 0505)?",
+    "expected_tools": [
+      "get_item_info",
+      "get_stock"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "multi-02265",
+    "query": "Show the details and stock for robot vacuum limited edition. (request 2265)?",
+    "expected_tools": [
+      "get_item_info",
+      "get_stock"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "multi-02665",
+    "query": "Show the details and stock for robot vacuum limited edition. (request 2665)?",
+    "expected_tools": [
+      "get_item_info",
+      "get_stock"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "multi-02685",
+    "query": "Show the details and stock for robot vacuum limited edition. (request 2685)?",
+    "expected_tools": [
+      "get_item_info",
+      "get_stock"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  },
+  {
+    "id": "multi-01745",
+    "query": "Show the details and stock for robot vacuum limited edition. (request 1745)?",
+    "expected_tools": [
+      "get_item_info",
+      "get_stock"
+    ],
+    "language": "en",
+    "source": "held-out-synthetic"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "examples": 96,
+    "exact_tool_set_accuracy": 0.71875,
+    "micro_precision": 0.775,
+    "micro_recall": 0.775,
+    "micro_f1": 0.775,
+    "macro_f1": 0.7795734855656365,
+    "recall_at_1": 0.734375,
+    "recall_at_3": 0.9010416666666666,
+    "mean_latency_ms": 0.08623021009649771,
+    "p95_latency_ms": 0.11179997818544507,
+    "exact_match_cardinality": "top-ranked count equals number of labelled tools",
+    "method": "bm25"
+  },
+  {
+    "examples": 96,
+    "exact_tool_set_accuracy": 0.9270833333333334,
+    "micro_precision": 0.9416666666666667,
+    "micro_recall": 0.9416666666666667,
+    "micro_f1": 0.9416666666666667,
+    "macro_f1": 0.935942419521033,
+    "recall_at_1": 0.828125,
+    "recall_at_3": 1.0,
+    "mean_latency_ms": 10.109878124543078,
+    "p95_latency_ms": 20.50119999330491,
+    "exact_match_cardinality": "top-ranked count equals number of labelled tools",
+    "method": "dense"
+  },
+  {
+    "examples": 96,
+    "exact_tool_set_accuracy": 0.9270833333333334,
+    "micro_precision": 0.9416666666666667,
+    "micro_recall": 0.9416666666666667,
+    "micro_f1": 0.9416666666666667,
+    "macro_f1": 0.9349324893467985,
+    "recall_at_1": 0.8177083333333334,
+    "recall_at_3": 0.984375,
+    "mean_latency_ms": 9.479304167750039,
+    "p95_latency_ms": 16.20709997951053,
+    "exact_match_cardinality": "top-ranked count equals number of labelled tools",
+    "method": "rrf"
+  },
+  {
+    "examples": 96,
+    "exact_tool_set_accuracy": 0.8229166666666666,
+    "micro_precision": 0.8583333333333333,
+    "micro_recall": 0.8583333333333333,
+    "micro_f1": 0.8583333333333333,
+    "macro_f1": 0.8566209079180778,
+    "recall_at_1": 0.7239583333333334,
+    "recall_at_3": 0.96875,
+    "mean_latency_ms": 230.38649270802125,
+    "p95_latency_ms": 357.6222999836318,
+    "exact_match_cardinality": "top-ranked count equals number of labelled tools",
+    "method": "rrf_rerank"
+  }
+]

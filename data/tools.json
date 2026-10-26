@@ -1,0 +1,58 @@
+[
+  {
+    "name": "get_order_list",
+    "service": "orders",
+    "description": "List the user's recent orders and their current statuses.",
+    "keywords": ["order history", "latest purchases", "orders placed", "my orders"],
+    "demo_result": "Simulation: ORD-1001 is in transit; ORD-1002 was delivered yesterday."
+  },
+  {
+    "name": "get_item_info",
+    "service": "catalog",
+    "description": "Look up a product by SKU and return its name, price, description, and category.",
+    "keywords": ["product details", "item information", "cost", "price", "about a product"],
+    "demo_result": "Simulation: SKU-0042 is a commuter backpack priced at $49.00."
+  },
+  {
+    "name": "get_stock",
+    "service": "catalog",
+    "description": "Check the current inventory and available quantity for a product SKU.",
+    "keywords": ["stock", "inventory", "availability", "in stock", "units left"],
+    "demo_result": "Simulation: SKU-0042 has 18 units available."
+  },
+  {
+    "name": "get_cart_summary",
+    "service": "cart",
+    "description": "Show the products and quantities in the shopping cart and its subtotal.",
+    "keywords": ["basket", "cart contents", "items in my cart", "cart total"],
+    "demo_result": "Simulation: Your cart has 2 products with a subtotal of $84.00."
+  },
+  {
+    "name": "get_current_promotions",
+    "service": "promotions",
+    "description": "List active sales and promotions with their eligibility conditions.",
+    "keywords": ["discount event", "special offers", "deals", "sale", "promotion rules"],
+    "demo_result": "Simulation: Spend $75 and save 10% on selected products this week."
+  },
+  {
+    "name": "get_available_coupons",
+    "service": "promotions",
+    "description": "List discount coupons available to the user and their minimum spend.",
+    "keywords": ["voucher", "promo code", "coupon codes", "eligible coupons"],
+    "demo_result": "Simulation: SAVE10 is available on orders over $50."
+  },
+  {
+    "name": "create_refund_request",
+    "service": "after-sales",
+    "description": "Submit a refund or return request for an order with a reason.",
+    "keywords": ["return an order", "request a refund", "send back", "damaged item", "refund application"],
+    "demo_result": "Simulation: Refund request RF-2026-004 has been submitted."
+  },
+  {
+    "name": "get_return_policy",
+    "service": "after-sales",
+    "description": "Look up the return and exchange policy, eligibility, and allowed time window.",
+    "keywords": ["exchange rules", "return window", "return period", "can I return", "after opening"],
+    "demo_result": "Simulation: Unused items can be returned within 30 days of delivery."
+  }
+]

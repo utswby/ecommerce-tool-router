@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+results/*
+!results/bm25_baseline.json
+!results/all_methods_evaluation_20261020.json
+!results/all_methods_evaluation_20261020.md
+
+# Assessment materials kept out of the public repository
+report/
+.presentation-build/
+.presentation-output/
+*.pptx
+Presentation_Speech_EN.txt
